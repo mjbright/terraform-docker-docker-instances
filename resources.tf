@@ -17,6 +17,8 @@ resource docker_container server {
     name    = var.network_bridge
   }
 
+  env = var.env
+
   ports {
     internal = var.int_port
     external = "${ each.value["ext_port"] }"

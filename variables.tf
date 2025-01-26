@@ -18,3 +18,9 @@ variable containers {
     type    = map
     default = {}
 }
+
+variable env {
+    type    = set(string)
+    default = []
+}
+
