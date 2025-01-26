@@ -1,6 +1,7 @@
 
 module docker-vms {
-    source = "../.."
+    #source = "../.."
+    source = "mjbright/terraform-docker-instances"
     
     containers     = var.containers
 
