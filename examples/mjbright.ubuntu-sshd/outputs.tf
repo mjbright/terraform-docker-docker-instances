@@ -3,7 +3,7 @@
 # - Note: the use of locals block to (slightly) simplify output value expressions
 
 locals {
-    ext_ports    = module.docker-vms.ext_ports
+    ext_ports    = module.docker-instances.ext_ports
 }
 
 # commands to connect to "vm" containers
